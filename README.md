@@ -17,14 +17,3 @@ Dimension from 640*640 to 224*224
 Color from RGB to Gray Scale
 
 To normalize the data, we divided each pixel with 255 so that we can have uniformly distributed values ranging from [0-1]
-
-Hyper-parameters	              Values
-Convolutional Network Layers	  3
-Fully connected Dense Layers	  2
-Batch-size	                    10
-Maximum Epochs	                15
-Dropout	                        Yes
-Loss-Function	                  Softmax
-Optimizer	                      AdamOptimizer
-Activation Function	            Relu
-Maximum Pooling	                Yes
